@@ -1,4 +1,4 @@
-﻿1- Write a program to store seven fruits in a list entered by the user.
+﻿# 1- Write a program to store seven fruits in a list entered by the user.
 
 fruits = []
 
@@ -19,19 +19,19 @@ fruits.append(f7)
 
 print(fruits)
 ----------------------------------------
-Enter fruit name: Banana
-Enter fruit name: Orange
-Enter fruit name: Guava
-Enter fruit name: Kiwi
-Enter fruit name: Peach
-Enter fruit name: Apple
-Enter fruit name: Pine
-['Banana', 'Orange', 'Guava', 'Kiwi', 'Peach', 'Apple', 'Pine']
+# Enter fruit name: Banana
+# Enter fruit name: Orange
+# Enter fruit name: Guava
+# Enter fruit name: Kiwi
+# Enter fruit name: Peach
+# Enter fruit name: Apple
+# Enter fruit name: Pine
+# ['Banana', 'Orange', 'Guava', 'Kiwi', 'Peach', 'Apple', 'Pine']
 
 
 -------------------------------------------------------------------------------------------------------------------
 
-2- Write a program to accept marks of 6 students and Display them in a sorted manner.
+# 2- Write a program to accept marks of 6 students and Display them in a sorted manner.
 
 
 marks = []
@@ -52,59 +52,59 @@ marks.append(f6)
 marks.sort()
 print(marks)
 ------------------------------------------
-Enter marks here: 45
-Enter marks here: 33
-Enter marks here: 52
-Enter marks here: 100
-Enter marks here: 79
-Enter marks here: 25
-[25, 33, 45, 52, 79, 100]
+# Enter marks here: 45
+# Enter marks here: 33
+# Enter marks here: 52
+# Enter marks here: 100
+# Enter marks here: 79
+# Enter marks here: 25
+# [25, 33, 45, 52, 79, 100]
 
 
 -------------------------------------------------------------------------------------------------------------------
 
-3- Check that Tuple type cannot be changed in python.
+# 3- Check that Tuple type cannot be changed in python.
 
 a = (34, 564, 5.456, "Harry", 55)
 a[2] = "Larry"
 
-#tuples is immuatble mean can't be changed.
+# tuples is immuatble mean can't be changed.
 ---------------------------------------------
 ---------------------------------------------------------------------------
-TypeError                                 Traceback (most recent call last)
-/tmp/ipython-input-2951310649.py in <cell line: 0>()
-      1 a = (34, 564, 5.456, "Harry", 55)
-----> 2 a[2] = "Larry"
-      3 
-      4 #tuples is immuatble mean can't be changed.
-
-TypeError: 'tuple' object does not support item assignment
+# TypeError                                 Traceback (most recent call last)
+# /tmp/ipython-input-2951310649.py in <cell line: 0>()
+#      1 a = (34, 564, 5.456, "Harry", 55)
+# ----> 2 a[2] = "Larry"
+#      3 
+#      4 #tuples is immuatble mean can't be changed.
+#
+# TypeError: 'tuple' object does not support item assignment
 
 
 -------------------------------------------------------------------------------------------------------------------
 
-4- Write a program to sum a list with 4 numbers.
+# 4- Write a program to sum a list with 4 numbers.
 
 a = [1, 3, 9, 15]
 
 print(sum(a))
 --------------------------------------------------
-28
+# 28
 
 
 
 -------------------------------------------------------------------------------------------------------------------
 
 
-5- Write a program to count the number of zeros in the folowing tuple.
-  a = (7, 0, 8, 0, 0, 9)
+# 5- Write a program to count the number of zeros in the folowing tuple.
+# a = (7, 0, 8, 0, 0, 9)
 
 a = (7, 0, 8, 0, 0, 9)
 
 n = a.count(0)
 print(n)
 -----------------------------
-3
+# 3
 
 -------------------------------------------------------------------------------------------------------------------
 
@@ -125,10 +125,10 @@ fruits.append(fruit3)
 
 print("Your Fruits list", fruits)
 ------------------------------------------------------
-Enter fruit 1 name: Banana
-Enter fruit 2 name: Mango
-Enter fruit 3 name: Cherry
-Your Fruits list ['Banana', 'Mango', 'Cherry']
+# Enter fruit 1 name: Banana
+# Enter fruit 2 name: Mango
+# Enter fruit 3 name: Cherry
+# Your Fruits list ['Banana', 'Mango', 'Cherry']
 
 
 -------------------------------------------------------------------------------------------------------------------
@@ -148,9 +148,9 @@ list.insert(position, fruit)
 
 print("Updated list", list)
 ---------------------------------------------------------------------------
-Enter a new fruit: Guava
-Enter the position to insert the new fruit: 1
-Updated list ['apple', 'Guava', 'banana', 'cherry']
+# Enter a new fruit: Guava
+# Enter the position to insert the new fruit: 1
+# Updated list ['apple', 'Guava', 'banana', 'cherry']
 
 
 
@@ -167,7 +167,7 @@ list.remove("banana")
 
 print("updated list", list)
 ----------------------------------------------------------------
-updated list ['apple', 'cherry', 'banana']
+# updated list ['apple', 'cherry', 'banana']
 
 
 -------------------------------------------------------------------------------------------------------------------
@@ -183,7 +183,7 @@ list.pop(2)
 
 print("updated", list)
 ---------------------------------------------
-updated [10, 20, 40, 50]
+# updated [10, 20, 40, 50]
 
 
 
@@ -200,7 +200,7 @@ list.clear()
 
 print(list)
 ------------------------------------------------------------
-[]
+# []
 
 
 
@@ -217,7 +217,7 @@ list.reverse()
 
 print(list)
 ----------------------------------------------------------
-[5, 4, 3, 2, 1]
+# [5, 4, 3, 2, 1]
 
 
 -------------------------------------------------------------------------------------------------------------------
@@ -232,7 +232,7 @@ count = list.count(2)
 
 print(count)
 --------------------------------------------
-3
+# 3
 
 
 -------------------------------------------------------------------------------------------------------------------
@@ -247,7 +247,7 @@ index = list.index("Farhan")
 
 print(index)
 ----------------------------------------------
-1
+# 1
 
 
 
@@ -264,8 +264,8 @@ new_list = list.copy()
 print(list)
 print(new_list)
 ---------------------------------------------
-[1, 2, 3]
-[1, 2, 3]
+# [1, 2, 3]
+# [1, 2, 3]
 
 
 
@@ -284,8 +284,8 @@ print("Ascending order", list)
 list.sort(reverse=True)
 print("Descending order", list)
 ---------------------------------------------
-Ascending order [1, 2, 5, 7, 9]
-Descending order [9, 7, 5, 2, 1]
+# Ascending order [1, 2, 5, 7, 9]
+# Descending order [9, 7, 5, 2, 1]
 
 
 
@@ -302,7 +302,7 @@ count = tuple.count(3)
 
 print(count)
 --------------------------------------------------------------------
-3
+# 3
 
 
 
@@ -319,7 +319,7 @@ index = tuple.index(30)
 
 print(index)
 ------------------------------------------------------------------
-2
+# 2
 
 
 
@@ -334,7 +334,7 @@ tuple = (5, 10, 15, 20)
 
 print(sum(tuple))
 ---------------------------------------------------------------
-50
+# 50
 
 
 -------------------------------------------------------------------------------------------------------------------
@@ -348,8 +348,8 @@ tuple = (22, 5, 17, 9, 33)
 print(max(tuple))
 print(min(tuple))
 -----------------------------------------------------------------------------
-33
-5
+# 33
+# 5
 
 
 
@@ -365,4 +365,4 @@ tuple = ("apple", "banana", "cherry", "mango")
 
 print(len(tuple))
 ----------------------------------------------------
-4
+# 4

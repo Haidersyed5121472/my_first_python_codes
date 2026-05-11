@@ -7,7 +7,7 @@ b = 2
 
 print(a + b)
 ------------------------------------------------------
-3
+# 3
 
 -------------------------------------------------------------------------------------------------------------------
 
@@ -21,7 +21,7 @@ b = 5
 
 print("Remainder when a is divided by b is ", a % b)
 ------------------------------------------------------------------------------
-Remainder when a is divided by b is  4
+# Remainder when a is divided by b is  4
 
 
 -------------------------------------------------------------------------------------------------------------------
@@ -33,8 +33,8 @@ Remainder when a is divided by b is  4
 a = input("Enter the value of a: ") 
 print(type(a))
 ----------------------------------------------------------------
-Enter the value of a: 34.2356
-<class 'str'>
+# Enter the value of a: 34.2356
+# <class 'str'>
 
 
 -------------------------------------------------------------------------------------------------------------------
@@ -48,9 +48,9 @@ b = int(input("Enter Number 2: "))
 
 print("a is greater then b", a>b)
 -------------------------------------------------------------------------------------------------------------
-Enter Number 1: 34
-Enter Number 2: 80
-a is greater then b False
+# Enter Number 1: 34
+# Enter Number 2: 80
+# a is greater then b False
 
 
 -------------------------------------------------------------------------------------------------------------------
@@ -64,9 +64,9 @@ b = int(input("Enter number 2: "))
 
 print("The average of these two number is", (a+b)/2)
 ------------------------------------------------------------------------------
-Enter number 1: 125
-Enter number 2: 185
-The average of these two number is 155.0
+# Enter number 1: 125
+# Enter number 2: 185
+# The average of these two number is 155.0
 
 
 -------------------------------------------------------------------------------------------------------------------
@@ -80,9 +80,9 @@ a = int(input("Enter your number : "))
 print("The square of the number is", a**2)
 print("The square of the number is", a*a)
 ----------------------------------------------------------------------------
-Enter your number : 7
-The square of the number is 49
-The square of the number is 49
+# Enter your number : 7
+# The square of the number is 49
+# The square of the number is 49
 
 
 -------------------------------------------------------------------------------------------------------------------
@@ -96,9 +96,9 @@ cube = num ** 3
 print("The cube of the number is:", cube)
 print(f"The cube of {num} is {cube}")
 ----------------------------------------------------------------
-Enter a float number: 2.5
-The cube of the number is: 15.625
-The cube of 2.5 is 15.625
+# Enter a float number: 2.5
+# The cube of the number is: 15.625
+# The cube of 2.5 is 15.625
 
 
 -------------------------------------------------------------------------------------------------------------------
@@ -114,8 +114,8 @@ if age >= 18:
 else:
   print("You are underage.")
 ---------------------------------------------
-Enter your age: 33
-You are an adult.
+# Enter your age: 33
+# You are an adult.
 
 
 -------------------------------------------------------------------------------------------------------------------
@@ -132,10 +132,10 @@ new_fruit = input("Enter a new fruit to add: ")
 fruits.append(new_fruit)
 print(fruits)
 --------------------------------------------------------------
-['Mango', 'Orange', 'Grapes', 'Apple', 'Banana']
-Apple
-Enter a new fruit to add: cherry
-['Mango', 'Orange', 'Grapes', 'Apple', 'Banana', 'cherry']
+# ['Mango', 'Orange', 'Grapes', 'Apple', 'Banana']
+# Apple
+# Enter a new fruit to add: cherry
+# ['Mango', 'Orange', 'Grapes', 'Apple', 'Banana', 'cherry']
 
 
 -------------------------------------------------------------------------------------------------------------------
@@ -150,9 +150,9 @@ total = sum(numbers)
 print(total)
 print(f"The sum of numbers in the tuple is: {total}")
 ----------------------------------------------------------------
-(5, 7, 8, 12)
-32
-The sum of numbers in the tuple is: 32
+# (5, 7, 8, 12)
+# 32
+# The sum of numbers in the tuple is: 32
 
 -------------------------------------------------------------------------------------------------------------------
 
@@ -173,10 +173,10 @@ person = {
 
 print("Person details dictionary", person)
 -------------------------------------------------
-Enter your name: Hadi
-Enter your age: 33
-ENter your city: Rawalpindi
-Person details dictionary {'name': 'Hadi', 'age': 33, 'city': 'Rawalpindi'}
+# Enter your name: Hadi
+# Enter your age: 33
+# ENter your city: Rawalpindi
+# Person details dictionary {'name': 'Hadi', 'age': 33, 'city': 'Rawalpindi'}
 
 
 -------------------------------------------------------------------------------------------------------------------
@@ -190,4 +190,4 @@ Person details dictionary {'name': 'Hadi', 'age': 33, 'city': 'Rawalpindi'}
 numbers = {2, 3, 5, 3, 7, 2, 5}
 print(numbers)
 --------------------------------
-{2, 3, 5, 7}
+# {2, 3, 5, 7}

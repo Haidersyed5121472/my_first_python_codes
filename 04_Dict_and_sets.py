@@ -10,8 +10,8 @@ word = input("Enter a word you want meaning of: ")
 
 print(words[word])
 --------------------------------------------------------------------
-Enter a word you want meaning of: Kursi
-Chair
+# Enter a word you want meaning of: Kursi
+# Chair
 
 
 -------------------------------------------------------------------------------------------------------------------
@@ -40,15 +40,15 @@ s.add(int(n))
 
 print(s)
 ---------------------------------------------
-Enter number: 5
-Enter number: 1
-Enter number: 2
-Enter number: 5
-Enter number: 3
-Enter number: 1
-Enter number: 2
-Enter number: 3
-{1, 2, 3, 5}
+# Enter number: 5
+# Enter number: 1
+# Enter number: 2
+# Enter number: 5
+# Enter number: 3
+# Enter number: 1
+# Enter number: 2
+# Enter number: 3
+# {1, 2, 3, 5}
 
 
 -------------------------------------------------------------------------------------------------------------------
@@ -61,7 +61,7 @@ s.add(18)
 s.add("18")
 print(s)
 ------------------------------------------------
-{18, '18'}
+# {18, '18'}
 
 
 -------------------------------------------------------------------------------------------------------------------
@@ -83,7 +83,7 @@ print(len(s))
 # is set is len() 2 is lia ayi ha q ky python integer 20 and float 20.0 ki value check karay ga or in 2no ki value same ha tou 2no ko aik---
 # --- count kr ky ans 2 dia ha means int wala 20 of float wala 20.0 ko 1 count kia or str walay "20" ko elehda say count kia tou ans 2 hua.
 ------------------------------------------------------------
-2
+# 2
 
 -------------------------------------------------------------------------------------------------------------------
 
@@ -93,7 +93,7 @@ print(len(s))
 s = {}
 print(type(s))
 --------------------------------------
-<class 'dict'>
+# <class 'dict'>
 
 
 -------------------------------------------------------------------------------------------------------------------
@@ -122,15 +122,15 @@ a.update({name: lang})
 
 print(a)
 ----------------------------------------------
-Enter friends name: Haider
-Enter language name: Python
-Enter friends name: Kala
-Enter language name: c++
-Enter friends name: Amir
-Enter language name: jawa
-Enter friends name: Farhan
-Enter language name: jawa script
-{'Haider': 'Python', 'Kala': 'c++', 'Amir': 'jawa', 'Farhan': 'jawa script'}
+# Enter friends name: Haider
+# Enter language name: Python
+# Enter friends name: Kala
+# Enter language name: c++
+# Enter friends name: Amir
+# Enter language name: jawa
+# Enter friends name: Farhan
+# Enter language name: jawa script
+# {'Haider': 'Python', 'Kala': 'c++', 'Amir': 'jawa', 'Farhan': 'jawa script'}
 
 
 -------------------------------------------------------------------------------------------------------------------
@@ -159,15 +159,15 @@ a.update({name: lang})
 
 print(a)
 -------------------------------------------------
-Enter friends name: Haider
-Enter language name: c
-Enter friends name: Haider
-Enter language name: c++
-Enter friends name: Kala
-Enter language name: python
-Enter friends name: amir
-Enter language name: python
-{'Haider': 'c++', 'Kala': 'python', 'amir': 'python'}
+# Enter friends name: Haider
+# Enter language name: c
+# Enter friends name: Haider
+# Enter language name: c++
+# Enter friends name: Kala
+# Enter language name: python
+# Enter friends name: amir
+# Enter language name: python
+# {'Haider': 'c++', 'Kala': 'python', 'amir': 'python'}
 
 
 -------------------------------------------------------------------------------------------------------------------
@@ -198,15 +198,15 @@ print(a)
 # Language value ha or names key hn agr key same ho gi tou wo update ho jaya gi or ans main latest key or value aya gi lakin agr value------
 # same ho gi or key different tou phr answer main koi change nahin aya ga jesay hm ny yahan code apply kr ky dakh lia.
 ---------------------------------------------------------
-Enter friends name: Haider
-Enter language name: Python
-Enter friends name: Ali
-Enter language name: C++
-Enter friends name: Amir
-Enter language name: Python
-Enter friends name: Farhan
-Enter language name: C
-{'Haider': 'Python', 'Ali': 'C++', 'Amir': 'Python', 'Farhan': 'C'}
+# Enter friends name: Haider
+# Enter language name: Python
+# Enter friends name: Ali
+# Enter language name: C++
+# Enter friends name: Amir
+# Enter language name: Python
+# Enter friends name: Farhan
+# Enter language name: C
+# {'Haider': 'Python', 'Ali': 'C++', 'Amir': 'Python', 'Farhan': 'C'}
 
 
 
@@ -221,15 +221,15 @@ print(type(s))
 # set main list nahin ho skti
 # Error dy ga koi b code yahan apply karain gy tou.
 ----------------------------------------------------------
-TypeError                                 Traceback (most recent call last)
-/tmp/ipython-input-3169711569.py in <cell line: 0>()
-      2 # s = {8, 7, 12, "Harry", [1,2]}
-      3 
-----> 4 s = {8, 7, 12, "Harry", [1,2]}
-      5 print(type(s))
-      6 # set main list nahin ho skti
-
-TypeError: unhashable type: 'list'
+# TypeError                                 Traceback (most recent call last)
+# /tmp/ipython-input-3169711569.py in <cell line: 0>()
+#      2 # s = {8, 7, 12, "Harry", [1,2]}
+#      3 
+# ----> 4 s = {8, 7, 12, "Harry", [1,2]}
+#      5 print(type(s))
+#      6 # set main list nahin ho skti
+#
+# TypeError: unhashable type: 'list'
 
 
 -------------------------------------------------------------------------------------------------------------------
@@ -252,8 +252,8 @@ a = marks.keys()
 print(a)
 #yeh code mainay khud apply kia ha.
 -----------------------------------------
-Names (keys): dict_keys(['Haider', 'Ali', 'Hasan'])
-dict_keys(['Haider', 'Ali', 'Hasan'])
+# Names (keys): dict_keys(['Haider', 'Ali', 'Hasan'])
+# dict_keys(['Haider', 'Ali', 'Hasan'])
 
 
 -------------------------------------------------------------------------------------------------------------------
@@ -274,8 +274,8 @@ print("Temperature (Values)", weather.values())
 a = weather.values()
 print("Temperature of different cities:", a)
 -------------------------------------------------------------
-Temperature (Values) dict_values([35, 28, 47])
-Temperature of different cities: dict_values([35, 28, 47])
+# Temperature (Values) dict_values([35, 28, 47])
+# Temperature of different cities: dict_values([35, 28, 47])
 
 
 -------------------------------------------------------------------------------------------------------------------
@@ -294,7 +294,7 @@ fruits = {
 
 print(fruits.items())
 ------------------------------------------------------------
-dict_items([('Mango', 150), ('Orange', 225), ('Apple', 100)])
+# dict_items([('Mango', 150), ('Orange', 225), ('Apple', 100)])
 
 
 
@@ -313,7 +313,7 @@ marks.update({"Haider": 90})
 marks.update({"Ali": 75})
 print(marks)
 ------------------------------------------------------
-{'Haider': 90, 'Ali': 75}
+# {'Haider': 90, 'Ali': 75}
 
 
 -------------------------------------------------------------------------------------------------------------------
@@ -333,7 +333,7 @@ a = {
 a.pop("Jacket")
 print(a)
 ------------------------------------------------
-{'Shirts': 1500, 'Pants': 1950}
+# {'Shirts': 1500, 'Pants': 1950}
 
 
 
@@ -353,7 +353,7 @@ footwear = {
 footwear.popitem()
 print(footwear)
 -------------------------------------
-{'Sandals': 1500, 'Shoes': 3500}
+# {'Sandals': 1500, 'Shoes': 3500}
 
 
 
@@ -372,7 +372,7 @@ food = {
 food.clear()
 print(food)
 -------------------------------------
-{}
+# {}
 
 
 
@@ -395,8 +395,8 @@ fruits_copy = fruits.copy()
 print(fruits)
 print(fruits_copy)
 -----------------------------------
-{'Mango': 150, 'Orange': 225, 'Apple': 100}
-{'Mango': 150, 'Orange': 225, 'Apple': 100}
+# {'Mango': 150, 'Orange': 225, 'Apple': 100}
+# {'Mango': 150, 'Orange': 225, 'Apple': 100}
 
 
 
@@ -414,7 +414,7 @@ a.add(7)
 a.add(10)
 print(a)
 -----------------------------------------------------
-{10, 5, 7}
+# {10, 5, 7}
 
 
 
@@ -431,7 +431,7 @@ a = {1, 2, 3, 4}
 a.remove(3)
 print(a)
 -----------------------------------------------------------------------
-{1, 2, 4}
+# {1, 2, 4}
 
 
 
@@ -448,7 +448,7 @@ a = {10, 20, 30}
 a.discard(50)
 print(a)
 ---------------------------------------------------
-{10, 20, 30}
+# {10, 20, 30}
 
 
 
@@ -466,8 +466,8 @@ removed_item = fruits.pop()
 print(removed_item)
 print(fruits)
 ------------------------------------------
-cherry
-{'banana', 'apple'}
+# cherry
+# {'banana', 'apple'}
 
 
 
@@ -483,7 +483,7 @@ a = {5, 10, 15}
 a.clear()
 print(a)
 -------------------------------------------
-set()
+# set()
 
 
 
@@ -504,8 +504,8 @@ b = a.copy()
 print(a)
 print(b)
 --------------------------
-{1, 'Apple', 52, 5}
-{1, 'Apple', 52, 5}
+# {1, 'Apple', 52, 5}
+# {1, 'Apple', 52, 5}
 
 
 
@@ -521,7 +521,7 @@ b = {3, 4, 5}
 c = a.union(b)
 print(c)
 ------------------------------
-{1, 2, 3, 4, 5}
+# {1, 2, 3, 4, 5}
 
 
 -------------------------------------------------------------------------------------------------------------------
@@ -536,7 +536,7 @@ b = {4,6,8}
 result = a.intersection(b)
 print(result)
 --------------------------------------
-{4, 6}
+# {4, 6}
 
 
 -------------------------------------------------------------------------------------------------------------------
@@ -554,8 +554,8 @@ d = b.difference(a)
 print(c)
 print(d)
 -------------------------------------
-{1, 2}
-{5}
+# {1, 2}
+# {5}
 
 
 -------------------------------------------------------------------------------------------------------------------
@@ -570,5 +570,5 @@ b = {3,4,5}
 c = a.symmetric_difference(b)
 print(c)
 -------------------------------------------
-{1, 2, 4, 5}
+# {1, 2, 4, 5}
 

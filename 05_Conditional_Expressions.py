@@ -18,11 +18,11 @@ else:
 
 ------------------------------------------------------------------------------------
 
-Enter number 1: 525
-Enter number 2: 725
-Enter number 3: 786
-Enter number 4: 929
-The Greatest Number is n4 929
+# Enter number 1: 525
+# Enter number 2: 725
+# Enter number 3: 786
+# Enter number 4: 929
+# The Greatest Number is n4 929
 
 ---------------------------------------------------------------------------------------------------------
 
@@ -44,11 +44,11 @@ else:
 
 -----------------------------------------------------------
 
-Enter number 1: 155
-Enter number 2: 125
-Enter number 3: 155
-Enter number 4: 100
-The Greatest Number is 155
+# Enter number 1: 155
+# Enter number 2: 125
+# Enter number 3: 155
+# Enter number 4: 100
+# The Greatest Number is 155
 
 ---------------------------------------------------------------------------------------------------------
 
@@ -67,10 +67,10 @@ else:
 
 ---------------------------------------------------------------------
 
-Enter marks of subject 1: 75
-Enter marks of subject 2: 40
-Enter marks of subject 3: 40
-You have Passed 51.666666666666664
+# Enter marks of subject 1: 75
+# Enter marks of subject 2: 40
+# Enter marks of subject 3: 40
+# You have Passed 51.666666666666664
 
 ---------------------------------------------------------------------------------------------------------
 
@@ -91,8 +91,8 @@ else:
 
 -------------------------------------------------------------------------------
 
-Enter a comment to check if it's spam or not: buy now to get 50% off
-Spam Comment
+# Enter a comment to check if it's spam or not: buy now to get 50% off
+# Spam Comment
 
 ---------------------------------------------------------------------------------------------------------
 
@@ -107,8 +107,8 @@ else:
 
 ----------------------------------------------------------
 
-Enter a username: asdfasd12
-Username contains less than 10 characters
+# Enter a username: asdfasd12
+# Username contains less than 10 characters
 
 ---------------------------------------------------------------------------------------------------------
 
@@ -124,8 +124,8 @@ else:
 
 ----------------------------------------------------------
 
-Enter a name to check if that name is present in a list or not: ahmed
-Given name is present in a list
+# Enter a name to check if that name is present in a list or not: ahmed
+# Given name is present in a list
 
 ---------------------------------------------------------------------------------------------------------
 
@@ -157,8 +157,8 @@ else:
 
 ------------------------------------------------------
 
-Enter your marks: 89
-Grade = A
+# Enter your marks: 89
+# Grade = A
 
 ---------------------------------------------------------------------------------------------------------
 
@@ -174,9 +174,9 @@ else:
 
 --------------------------------------------------------
 
-Enter a post: Harry is going to meet his friends in city centre.
-Enter a name: harry
-This post is talking about harry
+# Enter a post: Harry is going to meet his friends in city centre.
+# Enter a name: harry
+# This post is talking about harry
 
 ---------------------------------------------------------------------------------------------------------
 
@@ -195,8 +195,8 @@ else:
 
 ----------------------------------------------------
 
-Enter your number: -1
-Number is Negative
+# Enter your number: -1
+# Number is Negative
 
 ---------------------------------------------------------------------------------------------------------
 
@@ -216,9 +216,9 @@ else:
 
 ----------------------------------------------------
 
-Enter number 1: 11
-Enter number 2: 11
-Both numbers are equal
+# Enter number 1: 11
+# Enter number 2: 11
+# Both numbers are equal
 
 ---------------------------------------------------------------------------------------------------------
 
@@ -234,8 +234,8 @@ else:
 
 ----------------------------------------------------
 
-Enter your number: 5
-Number is odd or negative
+# Enter your number: 5
+# Number is odd or negative
 
 ---------------------------------------------------------------------------------------------------------
 
@@ -254,8 +254,8 @@ else:
 
 ------------------------------------------------------------
 
-Enter your age: 18
-Normal Category
+# Enter your age: 18
+# Normal Category
 
 ---------------------------------------------------------------------------------------------------------
 
@@ -271,8 +271,8 @@ else:
 
 ------------------------------------------------------------------
 
-Enter your number: 11
-Number is not less than 10
+# Enter your number: 11
+# Number is not less than 10
 
 ---------------------------------------------------------------------------------------------------------
 
@@ -288,8 +288,8 @@ else:
 
 --------------------------------------------
 
-Enter your username: asdfadsf123456
-Username is not empty
+# Enter your username: asdfadsf123456
+# Username is not empty
 
 ---------------------------------------------------------------------------------------------------------
 
@@ -306,8 +306,8 @@ else:
 
 -------------------------------------------------
 
-Enter a password: asdf1234
-Strong Password
+# Enter a password: asdf1234
+# Strong Password
 
 ---------------------------------------------------------------------------------------------------------
 
@@ -326,10 +326,10 @@ else:
 
 ------------------------------------------------------
 
-Enter number 1: 12
-Enter number 2: 14
-Enter number 3: -5
-One of the numbers is negative
+# Enter number 1: 12
+# Enter number 2: 14
+# Enter number 3: -5
+# One of the numbers is negative
 
 ---------------------------------------------------------------------------------------------------------
 
@@ -348,10 +348,10 @@ else:
 
 -------------------------------------------------------
 
-Enter number 1: 5
-Enter number 2: 1
-Enter number 3: 2
-All numbers are positive
+# Enter number 1: 5
+# Enter number 2: 1
+# Enter number 3: 2
+# All numbers are positive
 
 ---------------------------------------------------------------------------------------------------------
 
@@ -368,8 +368,8 @@ else:
 
 ------------------------------------------------------------------
 
-Enter your number: 11
-Given Condation Not Met
+# Enter your number: 11
+# Given Condation Not Met
 
 ---------------------------------------------------------------------------------------------------------
 
@@ -386,8 +386,8 @@ else:
 
 ----------------------------------------------------------------------
 
-Enter a sentence: Is this free of cost ?
-Given Condition met
+# Enter a sentence: Is this free of cost ?
+# Given Condition met
 
 ---------------------------------------------------------------------------------------------------------
 
@@ -404,8 +404,8 @@ else:
 
 -----------------------------------------------------------------
 
-Enter your marks: 101
-Marks are out of range
+# Enter your marks: 101
+# Marks are out of range
 
 ---------------------------------------------------------------------------------------------------------
 
@@ -423,8 +423,8 @@ else:
 
 ------------------------------------------------------------
 
-Enter a boolean: false
-Access Denied
+# Enter a boolean: false
+# Access Denied
 
 ---------------------------------------------------------------------------------------------------------
 
@@ -448,9 +448,9 @@ else:
 
 ------------------------------------------------------------------------------------
 
-Enter your number: -12
-Number is Even
-Number is Negative
+# Enter your number: -12
+# Number is Even
+# Number is Negative
 
 ---------------------------------------------------------------------------------------------------------
 
@@ -465,8 +465,8 @@ if n>0:
 
 ----------------------------------------------------
 
-Enter your number: 6
-Even
-Positive
+# Enter your number: 6
+# Even
+# Positive
 
 ---------------------------------------------------------------------------------------------------------

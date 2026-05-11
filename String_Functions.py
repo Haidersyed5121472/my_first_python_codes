@@ -1,6 +1,6 @@
-﻿String Functions
+# ﻿String Functions
 
-1-
+# 1-
 
 # Write a program to display a user entered name followed by good afternoon using input() function.
 # is function main hm ny f use kr ky string ko f string bna dia ha. 
@@ -13,7 +13,7 @@ print(f"Good Afternoon {name}")
 
 -------------------------------------------------------------------------------------------------------------------
 
-2-
+# 2-
 
 # Write a program to fill in a letter template given below with name and date.
 
@@ -31,7 +31,7 @@ print(letter.replace("<|Name|>", "Haider").replace("<|Date|>", "30th september 2
 
 -------------------------------------------------------------------------------------------------------------------
 
-3-
+# 3-
 
 # Write a program to detect double space in a string.
 # is function main agr ans -1 ho tou us ka matlab ho ga ky jo cheez ap find kr rahay ho wo us string main nahin ha.
@@ -46,7 +46,7 @@ print(a.find("  "))
 -------------------------------------------------------------------------------------------------------------------
 
 
-4-
+# 4-
 
 # Replace the double space from problem 3 to single spaces.
 # yahan hm ny .replace function use kr ky double space ko replace kr dia single space say.
@@ -59,7 +59,7 @@ print(a.replace("  ", " "))
 
 -------------------------------------------------------------------------------------------------------------------
 
-5-
+# 5-
 
 # Write a program to format the following letter using escape sequence characters.
 
@@ -78,7 +78,7 @@ print(letter)
 -------------------------------------------------------------------------------------------------------------------
                           
 
-6-
+# 6-
 
 #User se ek sentence input lo aur uski length print karo.
 
@@ -90,7 +90,7 @@ print("Length of a sentence is: ", len(sentence))
 
 -------------------------------------------------------------------------------------------------------------------
 
-7-
+# 7-
 
 #user say aik word input lo aur check kro ke sentence us word se start hota ha ya nahin.
 
@@ -106,7 +106,7 @@ print("Does the sentence start with yout word? ->", sentence.startswith(word))
 -------------------------------------------------------------------------------------------------------------------
 
 
-8-
+# 8-
 
 #sentence ky frist 5 characters and last 5 characters print karo.
 word = "Defaulter"
@@ -119,7 +119,7 @@ print("Last 5 characters: ", word[-5:])
 -------------------------------------------------------------------------------------------------------------------
 
 
-9-
+# 9-
 
 #User ka name input lo aur usko uppercase and lowercase me print karo.
 name = input("Enter your name: ")
@@ -132,7 +132,7 @@ print(name.lower())
 
 -------------------------------------------------------------------------------------------------------------------
 
-10-
+# 10-
 
 #user say aik word input lo aur sentence me us word ko "Python" se replace karo.
 
@@ -149,7 +149,7 @@ print(new_sentence)
 -------------------------------------------------------------------------------------------------------------------
 
 
-11-
+# 11-
 
 #Aik word input lo aur check karo ke wo palindrome hai ya nahin.(palindrome ulta seedha same word jesay madam)
 
@@ -165,7 +165,7 @@ else:
 
 -------------------------------------------------------------------------------------------------------------------
 
-12-
+# 12-
 
 #Check kro sentence dia huya word say end hta ha ya nahin
 
@@ -177,7 +177,7 @@ print(line.endswith("great"))
 
 -------------------------------------------------------------------------------------------------------------------
 
-13-
+# 13-
 
 #Remove extra spaces at start/End.
 
@@ -190,7 +190,7 @@ print(word.strip())
 -------------------------------------------------------------------------------------------------------------------
 
 
-14-
+# 14-
 
 #Count how many times a word appears.
 
@@ -202,7 +202,7 @@ print(letter.count("haider"))
 -------------------------------------------------------------------------------------------------------------------
 
 
-15-
+# 15-
 
 #user say aik sentence input lo aur uska sirf pehla letter capital banao.
 
@@ -215,7 +215,7 @@ print(name.capitalize())
 
 -------------------------------------------------------------------------------------------------------------------
 
-16-
+# 16-
 
 # user say aik sentence input lo aur us kay har word ka pehla letter capital banao
 
@@ -228,7 +228,7 @@ print(hello.title())
 
 -------------------------------------------------------------------------------------------------------------------
 
-17-
+# 17-
 
 # user say aik sentence input lo aur usme har capital letter ko small or har small letter ko capital banao.
 

@@ -8,8 +8,8 @@
 name = input("Enter your name: ")
 print(f"Good Afternoon {name}")
 ---------------------------------------
-Enter your name: Haider
-Good Afternoon Haider
+# Enter your name: Haider
+# Good Afternoon Haider
 
 -------------------------------------------------------------------------------------------------------------------
 
@@ -25,9 +25,9 @@ letter = '''
 
 print(letter.replace("<|Name|>", "Haider").replace("<|Date|>", "30th september 2025"))
 ---------------------------------------------------------------------------------------
-Dear Haider,
-       You are selected!
-       30th september 2025
+# Dear Haider,
+#       You are selected!
+#       30th september 2025
 
 -------------------------------------------------------------------------------------------------------------------
 
@@ -40,7 +40,7 @@ Dear Haider,
 a = "Harry is a  good boy"
 print(a.find("  "))
 ----------------------------
-10
+# 10
 
 
 -------------------------------------------------------------------------------------------------------------------
@@ -54,7 +54,7 @@ print(a.find("  "))
 a = "Harry is a  good boy"
 print(a.replace("  ", " "))
 -------------------------------
-Harry is a good boy
+# Harry is a good boy
 
 
 -------------------------------------------------------------------------------------------------------------------
@@ -70,10 +70,10 @@ print(letter)
 letter = "Dear Harry,\n\t This python course is nice.\n Thanks!"
 print(letter)
 --------------------------------------------------------------------------
-Dear Harry, this python course is nice. Thanks!
-Dear Harry,
-	 This python course is nice.
- Thanks!
+# Dear Harry, this python course is nice. Thanks!
+# Dear Harry,
+#	 This python course is nice.
+# Thanks!
 
 -------------------------------------------------------------------------------------------------------------------
                           
@@ -85,8 +85,8 @@ Dear Harry,
 sentence = input("Enter a sentence: ")
 print("Length of a sentence is: ", len(sentence))
 ---------------------------------------------------
-Enter a sentence: My name is Haider
-Length of a sentence is:  17
+# Enter a sentence: My name is Haider
+# Length of a sentence is:  17
 
 -------------------------------------------------------------------------------------------------------------------
 
@@ -98,9 +98,9 @@ sentence = input("Enter a sentence: ")
 word = input("Enter a word to check start: ")
 print("Does the sentence start with yout word? ->", sentence.startswith(word))
 -------------------------------------------------------------------------------
-Enter a sentence: My name is haider
-Enter a word to check start: My
-Does the sentence start with yout word? -> True
+# Enter a sentence: My name is haider
+# Enter a word to check start: My
+# Does the sentence start with yout word? -> True
 
 
 -------------------------------------------------------------------------------------------------------------------
@@ -113,8 +113,8 @@ word = "Defaulter"
 print("First 5 characters: ", word[:5])
 print("Last 5 characters: ", word[-5:])
 -----------------------------------------
-First 5 characters:  Defau
-Last 5 characters:  ulter
+# First 5 characters:  Defau
+# Last 5 characters:  ulter
 
 -------------------------------------------------------------------------------------------------------------------
 
@@ -126,9 +126,9 @@ name = input("Enter your name: ")
 print(name.upper())
 print(name.lower())
 ------------------------------------
-Enter your name: Haider
-HAIDER
-haider
+# Enter your name: Haider
+# HAIDER
+# haider
 
 -------------------------------------------------------------------------------------------------------------------
 
@@ -142,8 +142,8 @@ new_sentence = sentence.replace(replace_word, "Pyton")
 
 print(new_sentence)
 --------------------------------------------------------
-Enter a word to raplace: programming
-I love Pyton
+# Enter a word to raplace: programming
+# I love Pyton
 
 
 -------------------------------------------------------------------------------------------------------------------
@@ -159,8 +159,8 @@ if word == word[ : : -1] :
 else:
    print("No it is not a palindrome")
 ---------------------------------------------------------
-Enter a word to check palindrome: madam
-Yes it is a palindrome
+# Enter a word to check palindrome: madam
+# Yes it is a palindrome
 
 
 -------------------------------------------------------------------------------------------------------------------
@@ -172,7 +172,7 @@ Yes it is a palindrome
 line = "Python is great"
 print(line.endswith("great"))
 -------------------------------
-True
+# True
 
 
 -------------------------------------------------------------------------------------------------------------------
@@ -184,7 +184,7 @@ True
 word = "  Hello World   "
 print(word.strip())
 ----------------------------
-Hello World
+# Hello World
 
 
 -------------------------------------------------------------------------------------------------------------------
@@ -197,7 +197,7 @@ Hello World
 letter = "Hello this is haider and haider is 33 years of age."
 print(letter.count("haider"))
 ------------------------------------------------------------
-2
+# 2
 
 -------------------------------------------------------------------------------------------------------------------
 
@@ -209,8 +209,8 @@ print(letter.count("haider"))
 name = input("Enter your name: ")
 print(name.capitalize())
 -------------------------------------
-Enter your name: my name is haider
-My name is haider
+# Enter your name: my name is haider
+# My name is haider
 
 
 -------------------------------------------------------------------------------------------------------------------
@@ -222,8 +222,8 @@ My name is haider
 hello = input("Enter your sentence: ")
 print(hello.title())
 ------------------------------------------
-Enter your sentence: my name is haider.
-My Name Is Haider.
+# Enter your sentence: my name is haider.
+# My Name Is Haider.
 
 
 -------------------------------------------------------------------------------------------------------------------
@@ -235,5 +235,5 @@ My Name Is Haider.
 hi = input("Enter your sentence: ")
 print(hi.swapcase())
 --------------------------------------
-Enter your sentence: My Name Is Haider
-mY nAME iS hAIDER
+# Enter your sentence: My Name Is Haider
+# mY nAME iS hAIDER

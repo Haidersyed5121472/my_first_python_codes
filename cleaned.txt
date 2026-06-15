@@ -1,0 +1,3 @@
+Python automation is fun.
+I love programming.
+I am learning file automation in python.

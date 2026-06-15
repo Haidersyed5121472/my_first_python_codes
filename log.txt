@@ -1,0 +1,6 @@
+python practice
+File I/O Learning
+I am learning all this to do automation
+python
+Learning python
+I am learning append method in file handling.

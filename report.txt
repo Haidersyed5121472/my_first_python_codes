@@ -1,0 +1,2 @@
+I am learning file handling in python.
+I love it.
